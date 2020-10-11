@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0">
+    <title>酷狗音乐，就是歌多</title>
+    <meta name="keywords" content="酷狗音乐旗下最新最全的在线正版音乐网站，本站为您免费提供最全的在线音乐试听下载，以及全球海量电台和MV播放服务、最新音乐播放器下载。酷狗音乐 和音乐在一起">
+    <meta name="description" content="酷狗音乐旗下最新最全的在线正版音乐网站，本站为您免费提供最全的在线音乐试听下载，以及全球海量电台和MV播放服务、最新音乐播放器下载。酷狗音乐 和音乐在一起"> 
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="mainPage">
+        <div class="header">
+            <h1 class="logo">
+                <a href="javescript:;">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </h1>
+            <div class="search_wrapper">
+                <div class="search_input">
+                    <input type="text" placeholder="Coolbaby、宋孟君 猪猪侠">
+                    <div class="search_btn">
+                        <i class="search_icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="topNav">
+                <ul>
+                    <li><a href="javascript:;">客服中心</a></li>
+                    <li><a href="javascript:;">招贤纳士</a></li>
+                    <li><a href="javascript:;">会员中心</a></li>
+                </ul>
+                <div class="login_area">
+                    <a class="login_btn">登录</a>
+                </div>
+            </div>
+        </div>
+        <div class="navWrap">
+            <div class="nav">
+                <ul class="homenav">
+                    <li><a href="javascript:;" class="a_active">首页</a></li>
+                    <li><a href="javascript:;">榜单</a></li>
+                    <li><a href="javascript:;">下载客户端</a></li>
+                    <li><a href="javascript:;" class="more">更多</a></li>
+                </ul>
+                <ul class="subnav">
+                    <li><a href="javascript:;" class="icon icon1">直播</a></li>
+                    <li><a href="javascript:;" class="icon icon2">商城</a></li>
+                    <li><a href="javascript:;" class="icon icon3">音乐人</a></li>
+                    <li><a href="javascript:;" class="icon icon4">代理商</a></li>
+                    <li><a href="javascript:;" class="icon icon5">主播电台</a></li>
+                    <li><a href="javascript:;" class="icon icon6">开放平台</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="silderWrap">
+            <div class="banner">
+                <ul>
+                    <li><a href="javascript:;"><img src="images/banner1.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/banner2.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/banner3.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/banner4.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/banner5.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <!-- 用来创建分页码 -->
+            <div class="sliderPage">
+                <div>
+                </div>
+            </div>
+            <a href="javascript:;" class="sliderPrev"></a>
+            <a href="javascript:;" class="sliderNext"></a>
+            <div class="downloadBlur">
+                <div class="download">
+                    <a href="javascript:;" id="pcDown">下载PC版</a>
+                    <a href="javascript:;" id="iphoneDown">下载iphone版</a>
+                    <a href="javascript:;" id="andDown">下载Android版</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="secoundContent">
+                <!-- 精选歌单 -->
+                <div class="selectSongList">
+                    <div class="itemTitle">
+                        <h3><i>精选</i>歌单</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <div class="itemContent">
+                        <div class="cpt cptBig">
+                            <p class="cptT">
+                                <span class="icon-select_icon"></span>
+                                <span class="num">2.0万</span>
+                            </p>
+                            <a href="javascript:;"><img src="upload/bigcpt.jpg" alt=""></a>
+                            <div class="Cover">
+                                <a href="javascript:;"></a>
+                                <div class="playBtn icon_plays"></div>
+                            </div>
+                            <div class="cptB">
+                                <p class="songListName">那些陪着你长大的动画歌曲</p>
+                                <p class="songListSinger">次元小编-蘑菇娘</p>
+                            </div>
+                        </div>
+                        <div class="cpt cptMid">
+                            <p class="cptT">
+                                <span class="icon-select_icon"></span>
+                                <span class="num">130191.0万</span>
+                            </p>
+                            <a href="javascript:;"><img src="upload/midcpt1.jpg" alt=""></a>
+                            <div class="Cover">
+                                <a href="javascript:;"></a>
+                                <div class="playBtn icon_plays"></div>
+                            </div>
+                            <div class="cptB">
+                                <p class="songListName">每周推荐歌曲</p>
+                                <p class="songListSinger">酷狗号歌单君</p>
+                            </div>
+                        </div>
+                        <div class="cpt cptMid">
+                            <p class="cptT">
+                                <span class="icon-select_icon"></span>
+                                <span class="num">11.7万</span>
+                            </p>
+                            <a href="javascript:;"><img src="upload/midcpt2.jpg" alt=""></a>
+                            <div class="Cover">
+                                <a href="javascript:;"></a>
+                                <div class="playBtn icon_plays"></div>
+                            </div>
+                            <div class="cptB">
+                                <p class="songListName">悄悄地努力，前方的美好也将不期而遇</p>
+                                <p class="songListSinger">LovelyKley</p>
+                            </div>
+                        </div>
+                        <div class="cpt cptMid">
+                            <p class="cptT">
+                                <span class="icon-select_icon"></span>
+                                <span class="num">226.2万</span>
+                            </p>
+                            <a href="javascript:;"><img src="upload/midcpt3.jpg" alt=""></a>
+                            <div class="Cover">
+                                <a href="javascript:;"></a>
+                                <div class="playBtn icon_plays"></div>
+                            </div>
+                            <div class="cptB">
+                                <p class="songListName">秋分：一叶知秋，岁月悠悠</p>
+                                <p class="songListSinger">千亿同袍爱上我</p>
+                            </div>
+                        </div>
+                        <div class="cpt cptMid">
+                            <p class="cptT">
+                                <span class="icon-select_icon"></span>
+                                <span class="num">139.1万</span>
+                            </p>
+                            <a href="javascript:;"><img src="upload/midcpt4.jpg" alt=""></a>
+                            <div class="Cover">
+                                <a href="javascript:;"></a>
+                                <div class="playBtn icon_plays"></div>
+                            </div>
+                            <div class="cptB">
+                                <p class="songListName">从此以后，你的世界我不在了</p>
+                                <p class="songListSinger">风停了_你走了</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精选歌单 -->
+                <!-- 热门歌单 -->
+                <div class="hotSongList">
+                    <div class="itemTitle">
+                        <h3><i>精选</i>歌单</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <div class="itemContent">
+                        <div class="listItem">
+                            <a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon_plays"></div>
+                                </div>
+                                <span class="arrow icon-big_arrow_right"></span>
+                                <img src="images/飙升榜.jpg" alt="">
+                                <div class="list">
+                                    <dl>
+                                        <dt>酷狗飙升榜</dt>
+                                        <dd>1 . 刘小慧 - 初恋情人</dd>
+                                        <dd>2 . 张茜 - 用力活着</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="listItem">
+                            <a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon_plays"></div>
+                                </div>
+                                <span class="arrow icon-big_arrow_right"></span>
+                                <img src="images/top榜.jpg" alt="">
+                                <div class="list">
+                                    <dl>
+                                        <dt>酷狗TOP500</dt>
+                                        <dd>1 . Ava Max - Salt</dd>
+                                        <dd>2 . 海伦 - 游山恋</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="listItem">
+                            <a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon_plays"></div>
+                                </div>
+                                <span class="arrow icon-big_arrow_right"></span>
+                                <img src="images/红歌榜.jpg" alt="">
+                                <div class="list">
+                                    <dl>
+                                        <dt>网络红歌榜</dt>
+                                        <dd>1 . 胡66 - 后来遇见他</dd>
+                                        <dd>2 . 大壮 - 我们不一样</dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 热门歌单 -->
+            </div>
+            <div class="hardware">
+                <div class="adv">
+                    <img src="upload/adv1.jpg" alt="">
+                </div>
+            </div>
+            <div class="subContentM clearfix">
+                <!-- 新歌首发 -->
+                <!-- js实现交互 -->
+                <div class="itemM newSongList">
+                    <div class="itemTitle hasBorder">
+                        <h3><b>新歌</b>首发</h3>
+                        <div class="tabT">
+                            <span class="MenuItem active">华语</span>
+                            <span class="MenuItem">欧美</span>
+                            <span class="MenuItem">韩国</span>
+                            <span class="MenuItem">日本</span>
+                        </div>
+                        <button class="playAll">
+                            <span class="icon_play"></span>
+                            <em>全部播放</em>
+                        </button>
+                    </div>
+                    <div class="itemContent">
+                        <div id="songTabContent">
+                            <ul style="display: block;">
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">等什么君 - 等风吟</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:13</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">半吨兄弟 - 菊花爆满山</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:56</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">阿悠悠 - 半生</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:17</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">陈瑞 - 万古愁</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:14</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">半吨兄弟 - Melody</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:40</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">海伦 - 逃出孤独</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:23</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">王韵 - 潦倒半生</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:59</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">花僮 - 雾里天涯</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:55</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">OneRepublic - Wild Life</span>
+                                        <!-- <span class="songTips"></span> -->
+                                        <span class="songTimes">04:27</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Melanie Martinez - Notebook (Explicit)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">02:30</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Sia - Courage to Change</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:52</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Travis Scott、Young Thug、M.I.A. - FRANCHISE (Explicit)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:22</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Tiësto - The Business (Explicit)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">02:44</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Clean Bandit、Mabel、24KGoldn - Tick Tock (Sam Feldt Remix)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">02:34</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">R3hab、Nina Nesbitt - Family Values</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">02:30</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Slushii - All I Need</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:45</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">伯贤 - 나의 시간은 (我的时间)【青春记录 OST】</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:32</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">MAMAMOO - WANNA BE MYSELF</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:26</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">太妍 - 내일은 고백할게 (明天我要告白)【你喜欢勃拉姆斯吗？ OST】</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:59</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">CHEN - 너의 달빛 (你的月光)【你喜欢勃拉姆斯吗？ OST】</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:45</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Raiden、灿烈、LEE HI、CHANGMO - Yours (Blinders Remix)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:33</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">TREASURE - I LOVE YOU</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:01</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">昭宥 - 하나면 돼요 (The Only On)【再次十八岁 OST】</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:02</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">iKON - ADORE YOU (KR Ver.) (iKON FAN MEETING 2019 at 山梨・YCC県民文化ホール_2019.11.04)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:17</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul style="display: none;">
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">雄之助、初音ミク - Mr.DJ</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:35</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">ギガP、初音ミク、GUMI、KIRA - GETCHA!</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:50</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">中島美嘉 - ノクターン (Nocturne)</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">05:51</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">LiSA、PABLO - play the world!</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:19</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">中島美嘉 - Justice</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:32</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">Aimer - SPARK-AGAIN【炎炎消防队 二之章 OP】</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:04</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">YOASOBI、Ayase - 群青</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">04:08</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                                <li class="songItems">
+                                    <a href="javascript:;">
+                                        <span class="songName">初音ミク、米库喵 - 更多更多!</span>
+                                        <span class="songTips"></span>
+                                        <span class="songTimes">03:26</span>
+                                        <span class="icon-play"></span>
+                                        <span class="icon-download downloadBtn"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pages p">
+                        <a class="prev disable"></a>
+                        <div class="pagenum">
+                            <span class="currentPage">1</span>
+                            /
+                            <span class="allPage">1</span>
+                        </div>
+                        <a class="next"></a>
+                    </div>
+                </div>
+                <!-- 新歌首发 -->
+                <!-- 推荐MV -->
+                <div class="itemM albumList">
+                    <div class="itemTitle">
+                        <h3><b>推荐</b>MV</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <div class="itemContent">
+                        <div class="cpt cptBigL">
+                            <a href="javascript:;">
+                                <img src="upload/MV1.jpg" alt="">
+                                <div class="Cover">
+                                    <div class="playBtn"></div>
+                                </div>
+                                <div class="cptB">
+                                    <p class="songListName">幻变 (舞蹈练习室)</p>
+                                    <p class="songListSinger">SING女团</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cpt cptMidL">
+                            <a href="javascript:;">
+                                <img src="upload/MV2.jpg" alt="">
+                                <div class="Cover">
+                                    <div class="playBtn"></div>
+                                </div>
+                                <div class="cptB">
+                                    <p class="songListName">Midnight Sky (Official Video)</p>
+                                    <p class="songListSinger">Miley Cyrus</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cpt cptMidL">
+                            <a href="javascript:;">
+                                <img src="upload/MV3.jpg" alt="">
+                                <div class="Cover">
+                                    <div class="playBtn"></div>
+                                </div>
+                                <div class="cptB">
+                                    <p class="songListName">镜中人 (《镜双城》动画番剧主题曲)</p>
+                                    <p class="songListSinger">郁可唯</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 推荐MV -->
+            </div>
+            <div class="hardware">
+                <div class="adv">
+                    <img src="upload/adv2.jpg" alt="">
+                </div>  
+            </div>
+            <div class="subContentM limitHeight clearfix">
+                <!-- 热门电台 -->
+                <div class="itemM HotRadio">
+                    <div class="itemTitle">
+                        <h3><b>热门</b>电台</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <div class="itemContent">
+                        <ul>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_1.jpg" alt="">
+                                </div>
+                                <div class="radioKind">KTV必点曲</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_2.jpg" alt="">
+                                </div>
+                                <div class="radioKind">中文DJ</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_3.jpg" alt="">
+                                </div>
+                                <div class="radioKind">酷狗热歌</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_4.jpg" alt="">
+                                </div>
+                                <div class="radioKind">网络红歌</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_5.jpg" alt="">
+                                </div>
+                                <div class="radioKind">经典</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_6.jpg" alt="">
+                                </div>
+                                <div class="radioKind">老情歌</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_7.jpg" alt="">
+                                </div>
+                                <div class="radioKind">新歌</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_8.jpg" alt="">
+                                </div>
+                                <div class="radioKind">动漫</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_9.jpg" alt="">
+                                </div>
+                                <div class="radioKind">轻音乐</div>
+                            </a></li>
+                            <li><a href="javascript:;">
+                                <div class="Cover">
+                                    <div class="playBtn icon-radio_play"></div>
+                                </div>
+                                <div class="radioLogo">
+                                    <img src="images/radio_10.jpg" alt="">
+                                </div>
+                                <div class="radioKind">最爱成名曲</div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 热门电台 -->
+                <!-- 热门歌手 -->
+                <div class="itemM HotSinger">
+                    <div class="itemTitle">
+                        <h3><b>热门</b>歌手</h3>
+                        <div class="tabT">
+                            <span class="active">华语</span>
+                            <span>欧美</span>
+                            <span>日韩</span>
+                            <span>
+                                <a href="javascript:;">更多</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="itemContent">
+                        <ul class="firstUl">
+                            <li>
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20180515002522714.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">周杰伦</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20200603112123228.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">薛之谦</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20191015184509781761.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">海来阿木</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20200729214845603.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">林俊杰</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20180507120242140.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">刘德华</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li style="display: none;">
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20200723224014580.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Taylor Swift</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20191030151254106.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Alan Walker</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20140409145904650908.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Michael Jackson</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20191224142145149.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Justin Bieber</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20191104145532840.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Bandari</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li style="display: none;">
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20200810155332612.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">BLACKPINK</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20170704172442730.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">BIGBANG</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20161229183012269.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">G-DRAGON</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20191127135154508.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">EXO</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20191104115828263.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">IU</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li style="display: none;">
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20140218093900627425.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Ludwig van Beethoven</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptMid">
+                                    <a href="javascript:;">
+                                        <img src="images/20200220175212587849.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">戴佩妮</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20181023145133578.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">迪玛希</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20200218114110380.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">Noona</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="cpt cptSmall">
+                                    <a href="javascript:;">
+                                        <img src="images/20200920180721103863.jpg" alt="">
+                                        <div class="Cover"></div>
+                                        <div class="cptB">
+                                            <span class="songListSinger">大自然的声音</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="subMenu">
+                            <a class="icon-s-dot icon-s-dot_active"></a>
+                            <a class="icon-s-dot"></a>
+                            <a class="icon-s-dot"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 热门歌手 -->
+            </div>
+            <div class="hardware">
+                <div class="adv">
+                    <img src="upload/adv3.jpg" alt="">
+                </div>  
+            </div>
+            <div class="friendLink clearfix">
+                <div class="itemTitle">
+                    <h3><b>友情</b>链接</h3>
+                    <a href="javascript:;">更多</a>
+                </div>
+                <div class="itemContent">
+                    <a href="javascript:;">爱美网</a>
+                    <a href="javascript:;">汽车论坛</a>
+                    <a href="javascript:;">IT之家</a>
+                    <a href="javascript:;">iPhone游戏</a>
+                    <a href="javascript:;">旅游攻略</a>
+                    <a href="javascript:;">华为商城</a>
+                    <a href="javascript:;">365音乐网</a>
+                    <a href="javascript:;">软件下载</a>
+                    <a href="javascript:;">漫漫看漫画</a>
+                    <a href="javascript:;">手机游戏</a>
+                    <a href="javascript:;">5sing原创音乐</a>
+                    <a href="javascript:;">腾讯音乐人</a>
+                    <a href="javascript:;">豌豆荚</a>
+                    <a href="javascript:;">5sing众筹</a>
+                    <a href="javascript:;">智能电视网</a>
+                    <a href="javascript:;">北京快网</a>
+                    <a href="javascript:;">07073网页游戏</a>
+                    <a href="javascript:;">站长之家</a>
+                </div>
+            </div>
+        </div>
+        <div class="footerWrapper">
+            <div class="footer">
+                <div class="links">
+                    <a href="javascript:;">关于酷狗</a> |
+                    <a href="javascript:;">监督举报</a> |
+                    <a href="javascript:;">商务合作</a> |
+                    <a href="javascript:;">广告服务</a> |
+                    <a href="javascript:;">投诉指引</a> |
+                    <a href="javascript:;">隐私政策</a> |
+                    <a href="javascript:;">儿童隐私政策</a> |
+                    <a href="javascript:;">用户服务协议</a> |
+                    <a href="javascript:;">酷狗音乐人</a> |
+                    <a href="javascript:;">酷狗直通车</a> |
+                    <a href="javascript:;">招聘信息</a> |
+                    <a href="javascript:;">客服中心</a> |
+                    <a href="javascript:;">用户体验提升计划</a>
+                </div>
+                <div class="copyright">
+                    <p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+                    <p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339    <a href="javascript:;">粤ICP备09017694号</a><span class="footicon"></span></p>
+                    <p>广播电视节目制作经营许可证（粤）字第01270号    营业性演出许可证穗天演440106026   <a href="javascript:;">营业执照</a></p>
+                    <p>穗公网监备案证第44010650010167    互联网药品信息服务资格证编号（粤）-非经营性-2012-0018 
+                        <a href="javascript:;"><span>粤公网安备 44010602000141号</span><img src="images/icon_yuewangga1.png" alt="" style="width: 16px; height: 16px; vertical-align: text-bottom;"></a>
+                    </p>
+                    <p><a href="javascript:;">互联网不良信息举报中心：www.12377.cn</a>    酷狗不良信息举报邮箱：jubao_music@kugou.net    客服邮箱：kefu@kugou.net</p>
+                    <p>Copyright  ©  2004-2020 KuGou-Inc.All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="scrollTop">
+            <a href="javascript:;"></a>
+        </div>
+    </div>
+</body>
+</html>
